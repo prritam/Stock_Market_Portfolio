@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+main{
+    max-width: 1000px;
+    width: 80%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+}
+main .card{
+    max-width: 200px;
+    flex: 1 1 210px;
+    text-align: center;
+    flex-direction: row;
+    float: left;
+    height: 200px;
+    border: 1px solid lightgrey;
+    margin: 20px;
+}
+main .card .caption{
+    padding-left: 1em;
+    text-align: left;
+    line-height: 3em;
+    height: 25%;
+
+}
+main .card .caption p{
+    font-size: 1.5em;
+
+}
